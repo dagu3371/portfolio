@@ -1,0 +1,36 @@
+  <!DOCTYPE html.erb>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <%= stylesheet_link_tag "contact.scss" %>
+    <title></title>
+  </head>
+  
+
+  <body>    
+  <%= render 'shared/nav_bar' %>
+  <div id = "contact_page">
+    <div class="info">
+        <div>
+          <div class="col-1">Phone:</div>
+          <div class="col-2"><a href="tel:0481303788">0481303788</a></div>
+        </div>
+        <div>
+          <div class="col-1">Email:</div>
+          <div class="col-2"><a href="mailto:dagu3371@gmail.com">dagu3371@gmail.com</a></div>
+        </div>
+        <div>
+          <div class="col-1">Linkedin:</div>
+          <div class="col-2"><a href="www.linkedin.com/in/david-gu8">linkedin.com/in/david-gu8</a></div>
+        </div>
+        <div>
+          <div class="col-1">Github:</div>
+          <div class="col-2"><a href="http://www.github.com/dagu3371">github.com/dagu3371</a></div>
+        </div>
+    </div>
+  </div>
+  
+  </body>
+  <%= render 'shared/footer' %>
+</html>
