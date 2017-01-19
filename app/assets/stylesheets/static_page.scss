@@ -14,27 +14,33 @@ nav {
 
  
 }
+ul {width:100%;
+ min-width:1000px;
+ list-style-type: none;}
 nav .master {
- 
+ 	
   margin-top: 5px;
-  
+  display: inline-block;
   font-weight: 700;
   color: black;
 
   cursor: pointer;
 }
 nav #home{
+
   float: left;
-  margin-left: 400px;
+  margin-left: 350px;
 }
 nav #portfolio{
   float: left;
-  margin-left: 55px;
+  margin-left: 50px;
+  margin-right:50px;
   
 }
 nav #contact_me {
+position:fixed;
   float: right;
-  margin-right: 400px;
+  margin-right: 350px;
 }
 a {text-decoration: none; }
 

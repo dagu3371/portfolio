@@ -1,12 +1,18 @@
- <nav>
+ <nav id = "wrap">
+      
+<ul id=menu>
       <div id="home", class="master">
-      	<%= link_to "Home", root_path%>
+      	<li><%= link_to "Home", root_path%>
       </div>
        <div id="portfolio", class="master">
-      	<a href="http://www.github.com/dagu3371">Portfolio</a>
+      	<li><a href="http://www.github.com/dagu3371">Portfolio</a>
       </div>
       <div id="contact_me", class = "master">
-         <%= link_to "Contact me", contact_path%>
+        <li> <%= link_to "Contact", contact_path%>
         
       </div>
+      
+     
+</ul>
+
     </nav>
